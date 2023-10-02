@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-long double fuctorial_2(long int x) {
-	long double result = 1;
+long int fuctorial_2(long int x) {
+	long int result = 1;
 
 	for (int i = x; i > 0; i -= 2) {
 		result *= i;
@@ -10,10 +10,10 @@ long double fuctorial_2(long int x) {
 	return result;
 }
 
-long double stepen(long double bs, int pow) {
+long double stepen(long double bs, int poww) {
 	long double result = 1;
 
-	for (int i = 0; i < pow; i++) {
+	for (int i = 0; i < poww; i++) {
 		result *= bs;
 	}
 
